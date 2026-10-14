@@ -1,0 +1,17 @@
+.env
+.env.*
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+mlruns/
+*.log
+# keep the preprocessor, ignore everything else dropped into models/
+models/*
+!models/preprocessor.joblib
+data/

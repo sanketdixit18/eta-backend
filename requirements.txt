@@ -1,0 +1,11 @@
+# Backend only: no Streamlit, no DagsHub client, no DVC, no Jinja2.
+# Preprocessor was pickled with scikit-learn 1.7.2, so that version is pinned.
+fastapi==0.115.6
+uvicorn==0.34.0
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.7.2
+joblib==1.4.2
+lightgbm==4.5.0
+mlflow-skinny==2.19.0
+cloudpickle
